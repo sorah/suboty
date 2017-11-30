@@ -121,11 +121,6 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-redmine (1.0.0)
-      activesupport
-      faraday
-      ruboty
-      slack-notifier
     ruboty-revision (1.0.0)
       ruboty
     ruboty-roll (0.1.0)
@@ -140,7 +135,6 @@ GEM
       ruboty
     ruboty-zoi (1.1.0)
       ruboty
-    slack-notifier (2.3.1)
     slop (4.6.1)
     tenkijp (0.2.0)
       jisx0402
@@ -175,7 +169,6 @@ DEPENDENCIES
   ruboty-lgtm
   ruboty-rainfall_jp
   ruboty-redis
-  ruboty-redmine (= 1.0.0)
   ruboty-revision
   ruboty-roll
   ruboty-rsay
