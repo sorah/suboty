@@ -91,7 +91,7 @@ GEM
       ruboty (>= 1.0.4)
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-fop (0.0.1)
+    ruboty-fop (0.0.2)
       fop
       ruboty
     ruboty-google_image (0.1.0)
