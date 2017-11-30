@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'ruboty'
 gem 'ruboty-discord'
@@ -22,4 +23,4 @@ gem "ruboty-tenkijp"
 gem "ruboty-zoi"
 gem "ruboty-rainfall_jp"
 gem "ruboty-world_clock"
-gem "ruboty-fop"
+gem "ruboty-fop", github: 'sorah/ruboty-fop'

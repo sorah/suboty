@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/makimoto/ruboty-irasutoya.git
+  remote: https://github.com/makimoto/ruboty-irasutoya
   revision: d47df26b179d51a857c0c59361ffa1adb3f55240
   specs:
     ruboty-irasutoya (0.1.0)
@@ -7,7 +7,15 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/sorah/ruboty-imasml.git
+  remote: https://github.com/sorah/ruboty-fop
+  revision: b3ca343e3e824fa673c6ddf8562fbd26e660426f
+  specs:
+    ruboty-fop (0.0.3)
+      fop
+      ruboty
+
+GIT
+  remote: https://github.com/sorah/ruboty-imasml
   revision: 2ce6c3adc8e4e7dc4cb695773efd23be9d9ce8be
   specs:
     ruboty-imasml (0.0.1)
@@ -91,9 +99,6 @@ GEM
       ruboty (>= 1.0.4)
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-fop (0.0.2)
-      fop
-      ruboty
     ruboty-google_image (0.1.0)
       faraday
       faraday_middleware
@@ -148,7 +153,7 @@ DEPENDENCIES
   ruboty-delay
   ruboty-discord
   ruboty-echo
-  ruboty-fop
+  ruboty-fop!
   ruboty-google_image
   ruboty-imascg (= 1.1.0)
   ruboty-imasml!
