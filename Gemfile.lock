@@ -22,14 +22,6 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    aws-sdk (2.10.94)
-      aws-sdk-resources (= 2.10.94)
-    aws-sdk-core (2.10.94)
-      aws-sigv4 (~> 1.0)
-      jmespath (~> 1.0)
-    aws-sdk-resources (2.10.94)
-      aws-sdk-core (= 2.10.94)
-    aws-sigv4 (1.0.2)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.0.5)
@@ -58,7 +50,6 @@ GEM
       concurrent-ruby (~> 1.0)
     jisx0402 (1.3.1)
       msgpack
-    jmespath (1.3.1)
     mem (0.1.5)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -125,9 +116,6 @@ GEM
       ruboty
     ruboty-roll (0.1.0)
       ruboty
-    ruboty-rsay (0.1.1)
-      aws-sdk (~> 2)
-      ruboty
     ruboty-tenkijp (0.2.0)
       tenkijp (= 0.2.0)
     ruboty-world_clock (0.1.0)
@@ -171,7 +159,6 @@ DEPENDENCIES
   ruboty-redis
   ruboty-revision
   ruboty-roll
-  ruboty-rsay
   ruboty-tenkijp
   ruboty-world_clock
   ruboty-zoi

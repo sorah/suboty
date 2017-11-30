@@ -16,7 +16,6 @@ gem "ruboty-lgtm"
 gem "ruboty-redis"
 gem "ruboty-revision"
 gem "ruboty-roll"
-gem "ruboty-rsay"
 # jpstock gem has been yanked
 # gem "ruboty-stock_price_jp"
 gem "ruboty-tenkijp"
