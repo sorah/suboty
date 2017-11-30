@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/sorah/ruboty-fop
-  revision: b3ca343e3e824fa673c6ddf8562fbd26e660426f
+  revision: 80c5ef362f3361cec0ac94c5b47cb9ddbe5b9164
   specs:
     ruboty-fop (0.0.3)
       fop
