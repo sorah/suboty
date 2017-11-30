@@ -1,0 +1,187 @@
+GIT
+  remote: git://github.com/makimoto/ruboty-irasutoya.git
+  revision: d47df26b179d51a857c0c59361ffa1adb3f55240
+  specs:
+    ruboty-irasutoya (0.1.0)
+      nokogiri
+      ruboty
+
+GIT
+  remote: git://github.com/sorah/ruboty-imasml.git
+  revision: 2ce6c3adc8e4e7dc4cb695773efd23be9d9ce8be
+  specs:
+    ruboty-imasml (0.0.1)
+      nokogiri
+      ruboty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    aws-sdk (2.10.94)
+      aws-sdk-resources (= 2.10.94)
+    aws-sdk-core (2.10.94)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.10.94)
+      aws-sdk-core (= 2.10.94)
+    aws-sigv4 (1.0.2)
+    chrono (0.4.0)
+      activesupport
+    concurrent-ruby (1.0.5)
+    discordrb (3.2.1)
+      discordrb-webhooks (~> 3.2.0.1)
+      opus-ruby
+      rbnacl (~> 3.4.0)
+      rest-client
+      websocket-client-simple (>= 0.3.0)
+    discordrb-webhooks (3.2.0.1)
+      rest-client
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.2.1)
+    event_emitter (0.2.6)
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    ffi (1.9.18)
+    fop (0.1.0)
+      nokogiri
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    jisx0402 (1.3.1)
+      msgpack
+    jmespath (1.3.1)
+    mem (0.1.5)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.3.0)
+    minitest (5.10.3)
+    msgpack (1.1.0)
+    multipart-post (2.0.0)
+    netrc (0.11.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    opus-ruby (1.0.1)
+      ffi
+    rbnacl (3.4.0)
+      ffi
+    redis (4.0.1)
+    redis-namespace (1.6.0)
+      redis (>= 3.0.4)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    ruboty (1.3.0)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-alias (0.0.8)
+      ruboty (>= 1.1.1)
+    ruboty-cron (1.1.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+    ruboty-delay (0.0.1)
+      ruboty
+    ruboty-discord (1.0.0)
+      discordrb (~> 3.2)
+      ruboty (>= 1.0.4)
+    ruboty-echo (0.1.0)
+      ruboty
+    ruboty-fop (0.0.1)
+      fop
+      ruboty
+    ruboty-google_image (0.1.0)
+      faraday
+      faraday_middleware
+      ruboty
+    ruboty-imascg (1.1.0)
+      ruboty
+    ruboty-kujibiki (0.2.1)
+      ruboty
+    ruboty-lgtm (0.0.3)
+      faraday
+      faraday_middleware
+      ruboty
+    ruboty-rainfall_jp (1.3.0)
+      ruboty
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
+    ruboty-redmine (1.0.0)
+      activesupport
+      faraday
+      ruboty
+      slack-notifier
+    ruboty-revision (1.0.0)
+      ruboty
+    ruboty-roll (0.1.0)
+      ruboty
+    ruboty-rsay (0.1.1)
+      aws-sdk (~> 2)
+      ruboty
+    ruboty-tenkijp (0.2.0)
+      tenkijp (= 0.2.0)
+    ruboty-world_clock (0.1.0)
+      activesupport
+      ruboty
+    ruboty-zoi (1.1.0)
+      ruboty
+    slack-notifier (2.3.1)
+    slop (4.6.1)
+    tenkijp (0.2.0)
+      jisx0402
+      rest-client
+    thread_safe (0.3.6)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
+    websocket (1.2.5)
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruboty
+  ruboty-alias
+  ruboty-cron
+  ruboty-delay
+  ruboty-discord
+  ruboty-echo
+  ruboty-fop
+  ruboty-google_image
+  ruboty-imascg (= 1.1.0)
+  ruboty-imasml!
+  ruboty-irasutoya!
+  ruboty-kujibiki
+  ruboty-lgtm
+  ruboty-rainfall_jp
+  ruboty-redis
+  ruboty-redmine (= 1.0.0)
+  ruboty-revision
+  ruboty-roll
+  ruboty-rsay
+  ruboty-tenkijp
+  ruboty-world_clock
+  ruboty-zoi
+
+BUNDLED WITH
+   1.16.0

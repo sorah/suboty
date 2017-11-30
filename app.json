@@ -1,0 +1,16 @@
+{
+  "name": "suboty",
+  "description": "sub ruboty bot",
+  "repository": "https://github.com/sorah/suboty",
+  "env": {
+    "RUBOTY_ENV": {
+      "description": "env",
+      "value": "production",
+      "required": false
+    },
+    "DISCORD_TOKEN": {
+      "description": "bot token",
+      "required": true
+    }
+  }
+}
