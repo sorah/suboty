@@ -24,3 +24,4 @@ gem "ruboty-zoi"
 gem "ruboty-rainfall_jp"
 gem "ruboty-world_clock"
 gem "ruboty-fop", github: 'sorah/ruboty-fop'
+gem "ruboty-syoboi_calendar"
