@@ -52,6 +52,7 @@ GEM
     ffi (1.9.18)
     fop (0.1.0)
       nokogiri
+    hashie (3.5.6)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (0.9.1)
@@ -65,6 +66,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.10.3)
     msgpack (1.1.0)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
     nokogiri (1.8.1)
@@ -121,6 +123,10 @@ GEM
       ruboty
     ruboty-roll (0.1.0)
       ruboty
+    ruboty-syoboi_calendar (0.0.7)
+      activesupport
+      ruboty
+      syoboi_calendar (= 0.3.1)
     ruboty-tenkijp (0.2.0)
       tenkijp (= 0.2.0)
     ruboty-world_clock (0.1.0)
@@ -129,6 +135,12 @@ GEM
     ruboty-zoi (1.1.0)
       ruboty
     slop (4.6.1)
+    syoboi_calendar (0.3.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
     tenkijp (0.2.0)
       jisx0402
       rest-client
@@ -164,6 +176,7 @@ DEPENDENCIES
   ruboty-redis
   ruboty-revision
   ruboty-roll
+  ruboty-syoboi_calendar
   ruboty-tenkijp
   ruboty-world_clock
   ruboty-zoi
